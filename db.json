@@ -22,19 +22,19 @@
   "prices": [
     {
       "id": 1,
-      "asset_id": 1,
+      "assetId": 1,
       "date": "2023-10-01",
       "assetPrice": "10"
     },
     {
       "id": 2,
-      "asset_id": 1,
+      "assetId": 1,
       "date": "2023-10-02",
       "assetPrice": "20"
     },
     {
       "id": 3,
-      "asset_id": 2,
+      "assetId": 2,
       "date": "2023-10-03",
       "assetPrice": "30"
     }
