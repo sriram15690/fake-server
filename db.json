@@ -3,19 +3,19 @@
     {
       "id": 1,
       "assetName": "Asset 1",
-      "assetType": "text",
-      "serialNumber": "text",
-      "assignedOwner": "text",
-      "location": "text",
+      "assetType": "type1",
+      "serialNumber": "11111",
+      "assignedOwner": "Ramky",
+      "location": "Clementi",
       "isActive": true
     },
     {
       "id": 2,
-      "assetName": "text",
-      "assetType": "text",
-      "serialNumber": "text",
-      "assignedOwner": "text",
-      "location": "text",
+      "assetName": "Asset 2",
+      "assetType": "Type2",
+      "serialNumber": "222222",
+      "assignedOwner": "Gourav",
+      "location": "Changi Airpot",
       "isActive": false
     }
   ],
@@ -37,6 +37,12 @@
       "assetId": 2,
       "date": "2023-10-03",
       "assetPrice": "30"
+    },
+    {
+      "assetId": 1,
+      "date": "2023-10-01",
+      "assetPrice": "100",
+      "id": 4
     }
   ]
 }
