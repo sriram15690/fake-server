@@ -73,13 +73,13 @@
   ],
   "assets": [
     {
-      "id": "1",
+      "id": 1,
       "assetName": "Asset 1",
       "assetType": "text",
       "serialNumber": "text",
       "assignedOwner": "text",
       "location": "text",
-      "isActive": "boolean",
+      "isActive": true,
       "assetDailyPricing": [
         {
           "id": "number",
@@ -104,13 +104,13 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "assetName": "text",
       "assetType": "text",
       "serialNumber": "text",
       "assignedOwner": "text",
       "location": "text",
-      "isActive": "boolean",
+      "isActive": boolean,
       "assetDailyPricing": [
         {
           "id": "number",
