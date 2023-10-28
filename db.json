@@ -74,6 +74,37 @@
   "assets": [
     {
       "id": "1",
+      "assetName": "Asset 1",
+      "assetType": "text",
+      "serialNumber": "text",
+      "assignedOwner": "text",
+      "location": "text",
+      "isActive": "boolean",
+      "assetDailyPricing": [
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        },
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        },
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        },
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "assetName": "text",
       "assetType": "text",
       "serialNumber": "text",
@@ -102,6 +133,23 @@
           "assetPrice": "number decimal"
         }
       ]
+    }
+  ],
+  "prices": [
+    {
+      "id": "1",
+      "date": "date",
+      "assetPrice": "10"
+    },
+    {
+      "id": "1",
+      "date": "date",
+      "assetPrice": "20"
+    },
+    {
+      "id": "2",
+      "date": "date",
+      "assetPrice": "30"
     }
   ]
 }
