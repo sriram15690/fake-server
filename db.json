@@ -70,5 +70,38 @@
       "email": "ioffen9@slideshare.net",
       "gender": "Male"
     }
+  ],
+  "assets": [
+    {
+      "id": "1",
+      "assetName": "text",
+      "assetType": "text",
+      "serialNumber": "text",
+      "assignedOwner": "text",
+      "location": "text",
+      "isActive": "boolean",
+      "assetDailyPricing": [
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        },
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        },
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        },
+        {
+          "id": "number",
+          "date": "date",
+          "assetPrice": "number decimal"
+        }
+      ]
+    }
   ]
 }
