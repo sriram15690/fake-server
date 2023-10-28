@@ -1,76 +1,4 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "first_name": "Justina",
-      "last_name": "Ginglell",
-      "email": "jginglell0@networkadvertising.org",
-      "gender": "Female"
-    },
-    {
-      "id": 2,
-      "first_name": "Marion",
-      "last_name": "Jenman",
-      "email": "mjenman1@surveymonkey.com",
-      "gender": "Male"
-    },
-    {
-      "id": 3,
-      "first_name": "Alfy",
-      "last_name": "Begin",
-      "email": "abegin2@list-manage.com",
-      "gender": "Female"
-    },
-    {
-      "id": 4,
-      "first_name": "Karney",
-      "last_name": "Zanussii",
-      "email": "kzanussii3@hao123.com",
-      "gender": "Male"
-    },
-    {
-      "id": 5,
-      "first_name": "Reid",
-      "last_name": "Schapero",
-      "email": "rschapero4@timesonline.co.uk",
-      "gender": "Male"
-    },
-    {
-      "id": 6,
-      "first_name": "Dorine",
-      "last_name": "Braybrookes",
-      "email": "dbraybrookes5@gov.uk",
-      "gender": "Female"
-    },
-    {
-      "id": 7,
-      "first_name": "Sarena",
-      "last_name": "Frape",
-      "email": "sfrape6@alexa.com",
-      "gender": "Female"
-    },
-    {
-      "id": 8,
-      "first_name": "Malva",
-      "last_name": "Pierse",
-      "email": "mpierse7@usda.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 9,
-      "first_name": "Rania",
-      "last_name": "Dablin",
-      "email": "rdablin8@state.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 10,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
-    }
-  ],
   "assets": [
     {
       "id": 1,
@@ -79,29 +7,7 @@
       "serialNumber": "text",
       "assignedOwner": "text",
       "location": "text",
-      "isActive": true,
-      "assetDailyPricing": [
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        },
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        },
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        },
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        }
-      ]
+      "isActive": true
     },
     {
       "id": 2,
@@ -110,45 +16,26 @@
       "serialNumber": "text",
       "assignedOwner": "text",
       "location": "text",
-      "isActive": boolean,
-      "assetDailyPricing": [
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        },
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        },
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        },
-        {
-          "id": "number",
-          "date": "date",
-          "assetPrice": "number decimal"
-        }
-      ]
+      "isActive": false
     }
   ],
   "prices": [
     {
-      "id": "1",
-      "date": "date",
+      "id": 1,,
+      "asset_id": 1,
+      "date": "2023-10-01",
       "assetPrice": "10"
     },
     {
-      "id": "1",
-      "date": "date",
+      "id": 2,
+      "asset_id": 1,
+      "date": "2023-10-02",
       "assetPrice": "20"
     },
     {
-      "id": "2",
-      "date": "date",
+      "id": 3,
+      "asset_id": 2,
+      "date": "2023-10-03",
       "assetPrice": "30"
     }
   ]
